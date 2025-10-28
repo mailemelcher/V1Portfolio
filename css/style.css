@@ -13,6 +13,8 @@ Bootstrap Variables Override
 
     /* Optional: Replace gradient from your UI Kit */
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+    --bg-color: #9AB19B;
 }
 
 /********************************
@@ -311,3 +313,7 @@ svg {
     
 }
     }
+
+body {
+    background-color: var(--bg-color);
+}
