@@ -1,14 +1,14 @@
 .navbar {
-    display: flex;           /* Flexbox açılıyor */
-    justify-content: flex-end; /* Tüm içerik sağa kayıyor */
-    align-items: center;     /* Dikey ortalama */
+    display: flex;           
+    justify-content: flex-end; 
+    align-items: center;     
     padding-right: 3rem; 
 }
 
 .navbar .navbar_menu {
-    list-style: none;        /* madde işaretlerini kaldır */
-    display: flex;           /* menü öğelerini yatay diz */
-    gap: 3rem;             /* öğeler arasında boşluk */
+    list-style: none;        
+    display: flex;           
+    gap: 3rem;            
     margin: 0;
     padding-right: 2rem;
 
@@ -24,11 +24,29 @@
     color: #C8A7A7;
         font-family: 'NATS', sans-serif;
 
-        display: flex;            /* ortalamak için flex kullanıyoruz */
-    justify-content: center;  /* yatay ortala */
-    align-items: center;      /* dikey ortala */
-    width: 9rem;             /* genişlik */
-    height: 3rem;             /* yükseklik */
+        display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    width: 9rem;             
+    height: 3rem;            
     border-radius: 8px;
         
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+ height: 3rem;
+ width: 100%;
+ background-color: red;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sociallogo{
+    width: 10px;
+    height: 10px;
 }
